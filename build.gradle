@@ -26,6 +26,9 @@ version = "${minecraft_version}-${mod_version}${buildnumber}"
 group= "uk.joshiejack.mariculture" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "Mariculture-Deluxe"
 
+sourceCompatibility = 7
+targetCompatibility = 7
+
 minecraft {
     version = "${minecraft_version}-${forge_version}"
     runDir = "eclipse"
